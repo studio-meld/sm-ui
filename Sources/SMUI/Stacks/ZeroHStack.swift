@@ -4,7 +4,7 @@ public struct ZeroHStack<Content>: View where Content : View {
   private var content: Content
   private var alignment: VerticalAlignment
   
-  init(
+  public init(
     _ alignment: VerticalAlignment = .center,
     @ViewBuilder content: () -> Content
   ) {
