@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ZeroVStack<Content>: View where Content : View {
+public struct ZeroVStack<Content>: View where Content : View {
   private var content: Content
   private var alignment: HorizontalAlignment
   
@@ -12,7 +12,7 @@ struct ZeroVStack<Content>: View where Content : View {
     self.content = content()
   }
   
-  var body: some View {
+  public var body: some View {
     VStack(
       alignment: alignment,
       spacing: 0
