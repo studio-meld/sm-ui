@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "SMUI",
+  name: "sm-ui",
   platforms: [
     // Only add support for iOS 11 and up.
     .iOS(.v15)
