@@ -1,5 +1,6 @@
 import SwiftUI
 
+@available(*, deprecated, renamed: "VStack", message: "Not to be used")
 public struct ZeroVStack<Content>: View where Content : View {
   private var content: Content
   private var alignment: HorizontalAlignment
