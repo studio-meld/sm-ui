@@ -1,3 +1,3 @@
 # Studio Meld UI
 
-A collection of UI elements.
+A code collection for UI development.
