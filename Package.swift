@@ -6,8 +6,8 @@ import PackageDescription
 let package = Package(
   name: "sm-ui",
   platforms: [
-    // Only add support for iOS 11 and up.
-    .iOS(.v15)
+    .macOS(.v13),
+    .iOS(.v15),
   ],
   products: [
     // Products define the executables and libraries a package produces, making them visible to other packages.
